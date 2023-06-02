@@ -87,33 +87,38 @@ a:hover {
 /*seccion3*/
 
 .seccion3 {
-    background-image: url("../images/barrapeque.jpg");
+    background-color: #3f1402;
     display: flex;
     width: 100%;
     height: 5%;
 }
 /*estilos de carrousel*/
 .carousel-container {
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
-    overflow: hidden;
+    background-color: #3f1402;
+    width: 80%;
+    margin:auto;
+    overflow:hidden;
     position: relative;
+
+
     
+  }
+  .loguito {
+    align-content: center;
   }
 
   .carousel {
     display: flex;
-    transition: transform 0.5s ease;
+    transition: transform 1s ease;
   }
 
   .carousel img {
-    width: 100%;
+    width: 50%;
     height: auto;
   }
 .footer {
-    background-color: #000;
-    color: #ffd700;
+    background-color: #3f1402;
+    color: #eeac90;
     padding: 20px;
     text-align: center;
     float: inline-end;
@@ -126,12 +131,13 @@ a:hover {
 }
 
 .footer ul li {
-    display: inline-block;
+    display: flex;
     margin-right: 10px;
+    flex-direction: column;
 }
 
 .footer ul li a {
-    color: #ffd700;
+    color: #e1a26f;
     text-decoration: none;
 }
 
