@@ -140,8 +140,80 @@ a:hover {
     color: #e1a26f;
     text-decoration: none;
 }
-
-
+body {
+    background-color: #3f1402;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #eeac90;
+    padding: 20px;
+    text-align: center;
+  }
+  /*Estilos de la galeria de productos*/
+  h1 {
+    margin: 0;
+  }
+  
+  #cart {
+    float: right;
+    font-weight: bold;
+  }
+  
+  #gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .product {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+  }
+  
+  .product img {
+    max-width: 100%;
+  }
+  
+  .add-to-cart {
+    background-color: #eeac90;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 10px 20px;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #531e03;
+  }
+  
+/*Estilos de nosotros*/
+.contenedor{
+    display:flex;
+    background-color: #eeac90;
+    text-align: left;
+    font-family: sans-serif;
+    color: rgb(104, 104, 104);
+    padding: auto;
+   
+    
+  
+}
+.texto{
+  padding: 20px 20px 20px 20px;
+}
+.nuestra_empresa{
+  width: 100%;
+}
 /* Estilos responsive */
 
 @media screen and (max-width: 768px) {
