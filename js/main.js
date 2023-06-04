@@ -7,7 +7,7 @@ let currentIndex = 0;
 
 // Función para mostrar la imagen actual
 function showImage(index) {
-  carousel.style.transform = `translateX(-${index * 80}%)`;
+  carousel.style.transform = `translateX(-${index * 100}%)`;
 }
 
 // Función para avanzar al siguiente índice del carrusel

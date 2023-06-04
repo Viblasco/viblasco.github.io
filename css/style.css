@@ -95,35 +95,39 @@ a:hover {
 /*estilos de carrousel*/
 .carousel-container {
     background-color: #3f1402;
-    width: 80%;
+    width: 50%;
     margin:auto;
     overflow:hidden;
-    position: relative;
+    position:relative;
+    padding-bottom: 20px;
 
 
     
   }
-  .loguito {
-    align-content: center;
-  }
-
   .carousel {
     display: flex;
     transition: transform 1s ease;
   }
 
   .carousel img {
-    width: 50%;
-    height: auto;
+    width:100%;
+   
+    
   }
 .footer {
-    background-color: #3f1402;
-    color: #eeac90;
+    background-color:#080808;
+    color: #3f1402;
+    display:flex;
     padding: 20px;
+    margin:auto;
     text-align: center;
-    float: inline-end;
+    justify-content: center;
+    
+    
 }
-
+.navegacion{
+  flex: 4;
+}
 .footer ul {
     list-style-type: none;
     margin: 0;
@@ -140,17 +144,21 @@ a:hover {
     color: #e1a26f;
     text-decoration: none;
 }
-body {
-    background-color: #3f1402;
-    color: #080808;
-    font-family: Arial, sans-serif;
-  }
+.redes{
+  color: #3f1402;
+  background-color: #080808;
+  display:flex;
+  padding: auto;
+  margin: auto;
+  justify-content: right;
+  flex:4;
+}
+.btn_redes{
+    width: 4rem;
+    height: 4rem;
+}
   
-  header {
-    background-color: #eeac90;
-    padding: 20px;
-    text-align: center;
-  }
+  
   /*Estilos de la galeria de productos*/
   .carrito{
     width: 20px;
