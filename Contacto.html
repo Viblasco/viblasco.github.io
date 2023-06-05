@@ -2,65 +2,55 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- favicon-->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+  <!-- favicon-->
+  <link rel="icon" href="images/ico.png" type="image/png" />
+  <!--Estilos Css-->
+  <link rel="stylesheet" href="css/style.css">
 
-    <link rel="icon" href="images/ico.png" type="image/png" />
-
-    <!--Estilos Css-->
-    <link rel="stylesheet" href="css/style.css">
-
-</head>
-
-
-</style>
 </head>
 
 <body>
-    <!-- Encabezado incluye el logo y la barra de navegacion con sus enlaces -->
-    <header class="header">
-        <img src="images/logo_grande.png" alt="Logo" class="logo">
-        <nav class="navbar">
-            <ul>
-                <li><a href="index.html ">Inicio</a></li>
-                <li><a href="Productos.html ">Nuestros productos</a></li>
-                <li><a href="Nosotros.html ">Nosotros</a></li>
-                <li><a href="Contacto.html ">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
- 
-        <body>
-            <h1>Contacto</h1>
-            <div class="conte">
-              <form onsubmit="return validateForm()">
-                <div class="form-group">
-                  <label for="name">Nombre:</label>
-                  <input type="text" id="name" name="name" required>
-                </div>
-                <div class="form-group">
-                  <label for="last-name">Apellido:</label>
-                  <input type="text" id="last-name" name="last-name" required>
-                </div>
-                <div class="form-group">
-                  <label for="email">Correo electrónico:</label>
-                  <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                  <label for="suggestions">Sugerencias:</label>
-                  <textarea id="suggestions" name="suggestions" rows="4" required></textarea>
-                </div>
-                <input type="submit" value="Enviar">
-              </form>
-            </div>
-          </body>
-          </html>
-       
-          <script src="/js/main.js"></script> 
-    </body>
+  <!-- Encabezado incluye el logo y la barra de navegacion con sus enlaces -->
+  <header class="header">
+    <img src="images/logo_grande.png" alt="Logo" class="logo">
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html ">Inicio</a></li>
+        <li><a href="Productos.html ">Nuestros productos</a></li>
+        <li><a href="Nosotros.html ">Nosotros</a></li>
+        <li><a href="Contacto.html ">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div>
+    <h1>Contacto</h1>
+    <div class="conte">
+      <form onsubmit="return validateForm()">
+        <div class="form-group">
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="last-name">Apellido:</label>
+          <input type="text" id="last-name" name="last-name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="suggestions">Sugerencias:</label>
+          <textarea id="suggestions" name="suggestions" rows="4" required></textarea>
+        </div>
+        <input type="submit" value="Enviar">
+      </form>
+    </div>
+<script src="/js/main.js"></script>
+</body>
 
 
 </html>
