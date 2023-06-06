@@ -29,27 +29,36 @@
   <div>
     <h1>Contacto</h1>
     <div class="conte">
-      <form onsubmit="return validateForm()">
+      <form onsubmit="return validar()">
         <div class="form-group">
-          <label for="name">Nombre:</label>
-          <input type="text" id="name" name="name" required>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre">
+          <span id="errorNombre" class="error">Debe ingresar un nombre válido</span>
         </div>
         <div class="form-group">
-          <label for="last-name">Apellido:</label>
-          <input type="text" id="last-name" name="last-name" required>
+          <label for="apellido">Apellido:</label>
+          <input type="text" id="apellido" name="apellido">
+          <span id="errorApellido" class="error">Debe ingresar un Apellido válido</span>
         </div>
-        <div class="form-group">
-          <label for="email">Correo electrónico:</label>
-          <input type="email" id="email" name="email" required>
-        </div>
-        <div class="form-group">
-          <label for="suggestions">Sugerencias:</label>
-          <textarea id="suggestions" name="suggestions" rows="4" required></textarea>
-        </div>
-        <input type="submit" value="Enviar">
-      </form>
+        
+    <div class="form-group">
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email">
     </div>
-<script src="/js/main.js"></script>
+    <span id="errorEmail" class="error">Debe ingresar un formato de email válido</span>
+    <div class="form-group">
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" form="datos" maxlength="200" rows="9" cols="50"
+        onfocus="this.value=''"></textarea>
+    </div>
+    <input type="submit" value="Enviar">
+    </form>
+             <div id="respuestas"></div>
+  </div>
+</div>
+  
+</body>>
+<script src="js/formulario.js"></script>
 </body>
 
 
